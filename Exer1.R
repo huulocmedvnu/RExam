@@ -9,7 +9,7 @@ findMaxarray <- function(Arr) {
     R <- i
     
     while(L - 1 > 0 && A[, L - 1] > m) {
-      L = L -1
+      L = L - 1
     }
     
     while(R + 1 <= length(A) && A[, R + 1] > m) {
