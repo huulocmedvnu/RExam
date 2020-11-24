@@ -7,11 +7,11 @@ findMaxarray <- function(Arr) {
     R <- i
     
     while(L - 1 > 0 && Arr[,L - 1] > m) {
-      L = L - 1
+      L <- L - 1
     }
     
     while(R + 1 <= length(Arr) && Arr[,R + 1] > m) {
-      R = R + 1
+      R <- R + 1
     }
     
     print(sum(Arr[,L:R]))
